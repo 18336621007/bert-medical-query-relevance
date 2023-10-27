@@ -1,0 +1,9 @@
+# bert-medical-query-relevance
+NLP医学搜索query相关性判断
+本部分仅为个人学习过程中的记录，是使用bert模型来判断两句医学搜索query的相关性
+其中data文件夹中为数据集，
+KUAKE-QQR_train是训练数据，共15000条
+KUAKE-QQR_dev是验证数据，共1600条
+KUAKE-QQR_test是需要判断相关性的数据，label为空，共1596条数据
+KUAKE-QQR_test_pred是test的最后预测结果，共1596条数据
+doc.py是项目代码，其中使用了bert模型，用train中的数据进行训练
